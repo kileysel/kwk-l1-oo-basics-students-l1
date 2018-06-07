@@ -11,6 +11,12 @@ class Shoes
   def swoosh=(swoosh_color)
     @this_shoes_color = swoosh_color
 end
+
+def swoosh 
+  @this_shoes_color
+end 
+end 
+
 sams_shoe=Shoes.new 
 sams_shoe.color="red" 
 puts sams_shoe.color
