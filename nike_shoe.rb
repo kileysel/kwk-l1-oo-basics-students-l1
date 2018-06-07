@@ -19,8 +19,8 @@ end
 
 sams_shoe=Shoes.new 
 sams_shoe.color="red" 
-puts sams_shoe.color
+puts "the color is #{sams_shoe.color} and the swoosh is #{sams_shoe.swoosh}"
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
 puts "natalias shoes are #{nat_shoes.color}"
-puts "the color of sams shoes are #{sams_shoe.swoosh_color}"
+puts "the color of natalias shoes are #{nat_shoes.color}"
