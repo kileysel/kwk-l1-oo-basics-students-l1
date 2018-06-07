@@ -4,7 +4,9 @@ class Shoes
     @this_shoes_color = color_base #create variable for THIS INSTANCE, assigns color_base to that variable 
   end 
   
-  def color   # tell the usert what color the shoe is 
+  def color   # tell the user what color the shoe is 
+  @this_shoes_color
   end 
+  
     
 end
