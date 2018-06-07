@@ -23,3 +23,4 @@ puts sams_shoe.color
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
 puts "natalias shoes are #{nat_shoes.color}"
+puts "the color of sams shoes are #{sams_shoe.swoosh_color}""
