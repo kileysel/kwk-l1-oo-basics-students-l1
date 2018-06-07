@@ -24,5 +24,6 @@ puts "the color is #{sams_shoe.color} and the swoosh is #{sams_shoe.swoosh}"
 nat_shoes = Shoes.new
 nat_shoes.color = "blue"
 nat_shoes.swoosh = "gold"
+puts "the swoosh color is #{nat_shoes.swoosh}"
 puts "natalias shoes are #{nat_shoes.color}"
 puts "the color of natalias shoes are #{nat_shoes.color}"
